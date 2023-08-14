@@ -1,0 +1,19 @@
+{
+  "name": "lambda-serverless-dynamodb",
+  "version": "1.0.0",
+  "description": "1. Install serverless globally ``` npm install -g serverless ```",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-jwt-verify": "^4.0.0",
+    "aws-sdk": "^2.1435.0"
+  },
+  "devDependencies": {
+    "serverless-iam-roles-per-function": "^3.2.0"
+  }
+}
